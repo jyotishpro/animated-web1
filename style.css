@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+    position: relative;
+    
+}
+#nav #left{
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+    
+}
+#left a{
+    display: inline-block;
+    text-decoration: none;
+color: black;
+font-size: 12px;
+}
+#right a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+
+    
+}
+#nav h3{
+    top: 40%;
+    left: 50%;
+    transform: (-50%, -50%);
+    position: absolute;
+    font-size: 15px;
+}
+#home{
+    width: 100%;
+    height: fit-content;
+}
+#hero{
+    padding:0 10vw ;
+    margin-top: 12vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#sustainbility{
+    height: 20vw;
+    width: 15vw;
+    margin-top: 5%;
+    
+}
+#sustainbility h3{
+font-size: 15px;
+font-weight: 600;
+}
+#sustainbility h5{
+font-size: 10px;
+font-weight: 100;
+}
+#sustainbility p{
+font-size: 12px;
+font-weight: 100;
+opacity: 0.5;
+}
+#sustainimg{
+    height: 100%;
+    width: 100%;
+}
+#ephemeral{
+    width:30vw ;
+    height: 40vw;
+    
+    position: relative;
+}
+#ephemeral img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#herovisit{
+    text-align: center;
+
+    display: flex;
+margin-top: 20%;
+
+    
+
+}
+#herovisit img{
+    width: 20px;
+    
+}
+#herovisit h3{
+    font-weight: 100;
+    font-size: small;
+    opacity: .8;
+}
+#visitimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(229, 229, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(179, 177, 177);
+}
+#sustaining{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#sustainimg img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#ephemeral h3{
+    font-size: 4vw;
+    font-weight: 400;
+}
+#ephemeral #heading{
+    position: absolute;
+    top: -17.7%;
+    left: -7%;
+}
+#ephemeral p{
+    word-spacing: -1px;
+    font-size: 12px;
+    margin-top: 15px;
+    opacity: .7;
+}
+#motive{
+    padding: 11vw 10vw;
+    
+}
+#motive h3{
+    font-size: 15px;
+    font-weight: 100;
+    opacity: .5;
+text-transform: uppercase;
+}
+#motive p{
+    padding-left:8vw;
+}
+#motive p img{
+    width: 40px;
+    height: 30px;
+    border-radius: 40%;
+}
+#harmony{
+
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+#syrogny{
+    height: 30vw;
+    width: 19vw;
+    
+}
+#syrogny img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#harmony2{
+    width: 25vw;
+    height: 36vw;
+
+}
+#harmony2 img{
+    width: 100%;
+    height: 100%;
+}
+#biodegradable{
+    height: 35vw;
+    display: flex;
+    gap: 20px;
+    margin-top: 10vw;
+}
+#biodegradable #bottle{
+    height: 100%;
+    width: 70%;
+
+}
+#packaging{
+    margin-top: 13%;
+}
+#bottle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#thinkf{
+    width:100% ;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+}
+#join button{
+    background-color: rgb(227, 223, 223);
+    color: black;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30%;
+}
+#thinkh{
+    position: absolute;
+    z-index: 9999;
+    background-color: white;
+}
+#thinkf video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
